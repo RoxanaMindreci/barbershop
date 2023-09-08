@@ -1,0 +1,29 @@
+:root {
+    --link-color: #fff;
+    --heading-font-family: "Raleway", sans-serif;
+
+}
+.global-header {
+    background-color: #333;
+}
+.global-header .main-navigation a:link, 
+.global-header .main-navigation a:visited {
+    color: var(--link-color);
+}
+
+.global-header .main-navigation a:hover {
+    color: #FF6C00;;
+}
+
+.global-header .main-navigation a:active {
+    color: #f00
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font-family);
+    font-weight: 700;
+}
